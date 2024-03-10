@@ -19,7 +19,7 @@
 	</select><br />
 	<label for="id_y">Liczba 2: </label>
 	<input id="id_y" type="text" name="y" value="<?php print(isset($y)); ?>" /><br />
-	<input type="submit" value="Oblicz" />
+	<input type="submit" name="action1" value="Oblicz działanie" />
 </form>	
 
 <?php
@@ -42,9 +42,34 @@ if (isset($messages)) {
 <?php } ?>
 
 <form action="<?php print(_APP_URL);?>/app/calc2.php" method="post">
+    <h1>Oprocentowanie kredytu.</h1>
 	<label for="id_xx">Kwota kredytu: </label>
-	<input id="id_xx" type="text" name="x" value="<?php print(isset($xx));?>" /><br/>
+	<input id="id_xx" type="text" name="xx" value="<?php print(isset($xx));?>" /><br/>
+        <label for="id_yy">Lata kredytu: </label>
+        <input id="id_yy" type="text" name="yy" value="<?php print(isset($xx));?>" /><br/>
+        <label for="id_zz">Procent kredytu: </label>
+        <input id="id_zz" type="text" name="zz" value="<?php print(isset($zz));?>" /><br/>
+        <input type="submit" name="action2" value="Oblicz kredyt" />
+</form>
 
+<?php
+//wyświeltenie listy błędów, jeśli istnieją
+if (isset($messages2)) {
+	if (count ( $messages2 ) > 0) {
+		echo '<ol style="margin: 20px; padding: 10px 10px 10px 30px; border-radius: 5px; background-color: #f88; width:300px;">';
+		foreach ( $messages2 as $key => $msg ) {
+			echo '<li>'.$msg.'</li>';
+		}
+		echo '</ol>';
+	}
+}
+?>
 
+<?php if (isset($result2)){ ?>
+<div style="margin: 20px; padding: 10px; border-radius: 5px; background-color: #ff0; width:300px;">
+<?php echo 'Wynik: '.$result2; ?>
+</div>
+<?php } ?>
+    
 </body>
 </html>

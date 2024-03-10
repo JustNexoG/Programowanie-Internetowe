@@ -10,7 +10,7 @@ require_once dirname(__FILE__).'/../config.php';
 
 $x = isset($_REQUEST['x']) ? $_REQUEST['x'] : null;
 $y = isset($_REQUEST['y']) ? $_REQUEST['y'] : null;
-$operation = isset($_REQUEST['op']) ? $_REQUEST['op'] : null;
+
 
 // 2. walidacja parametrów z przygotowaniem zmiennych dla widoku
 
