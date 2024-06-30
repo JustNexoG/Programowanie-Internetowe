@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/projekt_km/core/Router.class.php</file>
+            <file>file:/C:/xampp/htdocs/projekt_km/app/views/main.tpl</file>
+            <file>file:/C:/xampp/htdocs/projekt_km/public/assets/js/functions.js</file>
+            <file>file:/C:/xampp/htdocs/projekt_km/app/views/property_list_partial.tpl</file>
+            <file>file:/C:/xampp/htdocs/projekt_km/app/controllers/FavoritesCtrl.class.php</file>
+            <file>file:/C:/xampp/htdocs/projekt_km/routing.php</file>
+            <file>file:/C:/xampp/htdocs/projekt_km/app/controllers/PropertyManageCtrl.class.php</file>
+            <file>file:/C:/xampp/htdocs/projekt_km/app/controllers/PropertyListCtrl.class.php</file>
+            <file>file:/C:/xampp/htdocs/projekt_km/app/views/properties.tpl</file>
+            <file>file:/C:/xampp/htdocs/projekt_km/config.php</file>
+            <file>file:/C:/xampp/htdocs/projekt_km/app/views/templates/template.tpl</file>
+        </group>
+    </open-files>
+</project-private>
